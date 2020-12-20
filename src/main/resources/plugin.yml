@@ -1,0 +1,16 @@
+name: Bookrules
+version: 1.0
+main: me.smaks6.bookrules.Bookrules
+api-version: 1.16
+authors: [smaks6]
+
+commands:
+  rules:
+    aliases:
+      - regulamin
+  bookrules:
+    permission: Bookrules.admin
+
+permissions:
+  Bookrules.admin:
+    default: op
